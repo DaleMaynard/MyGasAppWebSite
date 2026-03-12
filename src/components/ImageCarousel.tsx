@@ -22,7 +22,7 @@ export default function ImageCarousel() {
     if (!container) return;
 
     let scrollPos = 0;
-    const scrollSpeed = 1.0;
+    const scrollSpeed = 0.75;
     let direction = 1; // 1 for scrolling right, -1 for scrolling left
 
     const scroll = () => {
@@ -75,7 +75,7 @@ export default function ImageCarousel() {
             Powerful Features in Action
           </h2>
           <p className="text-gray-300 max-w-3xl mx-auto" style={{ fontSize: '1.15rem', lineHeight: '1.6' }}>
-            See exactly what your users get with RestStop, FuelFinder, and TripPlanner
+            See exactly what your users get with Rest Stop, Gas Finder, and TripPlanner
           </p>
         </motion.div>
 
@@ -107,14 +107,14 @@ export default function ImageCarousel() {
                 viewport={{ once: true }}
               >
                 <div className="group cursor-pointer">
-                  <div className="relative w-64 h-96 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 bg-gradient-to-br from-gray-100 to-gray-200">
+                  <div className="relative w-64 h-[460px] rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                     {/* Image wrapper with aspect ratio */}
                     <div className="relative w-full h-full">
                       <Image
                         src={image.src}
                         alt={image.title}
                         fill
-                        className="object-cover group-hover:scale-110 transition-transform duration-500"
+                        className="object-contain group-hover:scale-110 transition-transform duration-500"
                         sizes="(max-width: 768px) 100vw, 256px"
                       />
                     </div>
