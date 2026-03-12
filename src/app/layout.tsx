@@ -19,7 +19,9 @@ export const metadata: Metadata = {
   keywords: ["fuel prices", "gas prices", "crowdsourced", "real-time", "travel", "trip planning"],
   authors: [{ name: "MyGasApp" }],
   icons: {
-    icon: "/website_favicon_logo/favicon-32x32.png",
+    icon: [
+      { url: "/website_favicon_logo/favicon-32x32.png", sizes: "32x32", type: "image/png" }
+    ],
   },
   openGraph: {
     title: "MyGasApp - Real-Time Fuel Prices",
@@ -52,6 +54,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/website_favicon_logo/favicon-32x32.png" type="image/png" sizes="32x32" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable}`}
         style={{ margin: 0, padding: 0, width: '100%', minHeight: '100vh', WebkitFontSmoothing: 'antialiased' }}
