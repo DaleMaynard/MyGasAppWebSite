@@ -47,7 +47,7 @@ export default function Download() {
         >
           {/* RestStop */}
           <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl flex-1 max-w-sm hover:bg-white/20 transition-all duration-300" style={{ padding: '2rem' }}>
-            <h3 className="font-bold" style={{ fontSize: '1.5rem', marginBottom: '0.75rem' }}>RestStop</h3>
+            <h3 className="font-bold" style={{ fontSize: '1.5rem', marginBottom: '0.75rem' }}>Find Rest Stops</h3>
             <p className="opacity-80" style={{ marginBottom: '1.5rem', lineHeight: '1.6', fontSize: '0.95rem' }}>Find rest stops and fuel along your highway journey.</p>
             <div className="flex" style={{ gap: '1rem' }}>
               <button className="flex-1 bg-black text-white py-3 rounded-lg flex items-center justify-center gap-2 hover:bg-gray-800 transition">
@@ -61,7 +61,7 @@ export default function Download() {
 
           {/* Gas Finder */}
           <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl flex-1 max-w-sm hover:bg-white/20 transition-all duration-300" style={{ padding: '2rem' }}>
-            <h3 className="font-bold" style={{ fontSize: '1.5rem', marginBottom: '0.75rem' }}>FuelFinder</h3>
+            <h3 className="font-bold" style={{ fontSize: '1.5rem', marginBottom: '0.75rem' }}>Gas Finder</h3>
             <p className="opacity-80" style={{ marginBottom: '1.5rem', lineHeight: '1.6', fontSize: '0.95rem' }}>Compare prices and find the cheapest fuel near you.</p>
             <div className="flex" style={{ gap: '1rem' }}>
               <button className="flex-1 bg-black text-white py-3 rounded-lg flex items-center justify-center gap-2 hover:bg-gray-800 transition">
@@ -75,7 +75,7 @@ export default function Download() {
 
           {/* TripPlanner */}
           <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl flex-1 max-w-sm hover:bg-white/20 transition-all duration-300" style={{ padding: '2rem' }}>
-            <h3 className="font-bold" style={{ fontSize: '1.5rem', marginBottom: '0.75rem' }}>TripPlanner</h3>
+            <h3 className="font-bold" style={{ fontSize: '1.5rem', marginBottom: '0.75rem' }}>Trip Planner</h3>
             <p className="opacity-80" style={{ marginBottom: '1.5rem', lineHeight: '1.6', fontSize: '0.95rem' }}>Plan your trip and optimize fuel stops for savings.</p>
             <div className="flex" style={{ gap: '1rem' }}>
               <button className="flex-1 bg-black text-white py-3 rounded-lg flex items-center justify-center gap-2 hover:bg-gray-800 transition">
