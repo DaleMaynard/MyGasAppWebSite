@@ -13,10 +13,36 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://mygasapp.vercel.app"),
   title: "MyGasApp - Real-Time Fuel Prices",
   description: "Get instant, accurate fuel prices powered by crowdsourced data from real travelers. Download RestStop, FuelFinder, or TripPlanner today.",
   keywords: ["fuel prices", "gas prices", "crowdsourced", "real-time", "travel", "trip planning"],
   authors: [{ name: "MyGasApp" }],
+  icons: {
+    icon: "/website_favicon_logo/favicon-32x32.png",
+  },
+  openGraph: {
+    title: "MyGasApp - Real-Time Fuel Prices",
+    description: "Get instant, accurate fuel prices powered by crowdsourced data from real travelers.",
+    url: "https://mygasapp.com",
+    siteName: "MyGasApp",
+    images: [
+      {
+        url: "/website_favicon_logo/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "MyGasApp - Real-Time Fuel Prices",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "MyGasApp - Real-Time Fuel Prices",
+    description: "Get instant, accurate fuel prices powered by crowdsourced data from real travelers.",
+    images: ["/website_favicon_logo/logo.png"],
+  },
 };
 
 export default function RootLayout({
