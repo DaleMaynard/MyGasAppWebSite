@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   authors: [{ name: "MyGasApp" }],
   icons: {
     icon: [
-      { url: "/website_favicon_logo/favicon-32x32.png", sizes: "32x32", type: "image/png" }
+      { url: "/favicon.png", sizes: "32x32", type: "image/png" }
     ],
   },
   openGraph: {
