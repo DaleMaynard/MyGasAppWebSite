@@ -115,8 +115,8 @@ export default function Features() {
             <div>
               <h4 className="font-semibold" style={{ fontSize: '1.25rem', marginBottom: '1rem' }}>Traditional APIs</h4>
               <ul className="opacity-90" style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-                <li>❌ 5-7 days delayed</li>
-                <li>❌ Commodity futures only</li>
+                <li>❌ 12 hrs to days delayed</li>
+                <li>❌ Not based on commodity futures</li>
                 <li>❌ High cost</li>
                 <li>❌ Limited coverage</li>
               </ul>
