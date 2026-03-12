@@ -119,7 +119,7 @@ export default function Hero() {
               
               {/* Card */}
               <div className="relative bg-gradient-to-br from-slate-700 to-slate-800 rounded-3xl p-1 overflow-hidden border border-slate-600">
-                <div className="bg-slate-800 rounded-3xl p-8 h-96 flex flex-col items-center justify-center overflow-hidden">
+                <div className="bg-slate-800 rounded-3xl h-96 flex flex-col items-center justify-center overflow-hidden">
                   {/* App Interface Preview Image */}
                   <img 
                     src="/driver_map.png" 
@@ -127,7 +127,8 @@ export default function Hero() {
                     style={{
                       width: '100%',
                       height: '100%',
-                      objectFit: 'contain'
+                      objectFit: 'cover',
+                      objectPosition: 'center'
                     }}
                   />
                 </div>
