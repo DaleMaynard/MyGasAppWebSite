@@ -119,17 +119,17 @@ export default function Hero() {
               
               {/* Card */}
               <div className="relative bg-gradient-to-br from-slate-700 to-slate-800 rounded-3xl p-1 overflow-hidden border border-slate-600">
-                <div className="bg-slate-800 rounded-3xl p-8 h-96 flex flex-col items-center justify-center">
-                  {/* Placeholder for featured image */}
-                  <motion.div
-                    className="text-7xl mb-4"
-                    animate={{ scale: [1, 1.1, 1] }}
-                    transition={{ duration: 2, repeat: Infinity }}
-                  >
-                    ⛽
-                  </motion.div>
-                  <h3 className="text-2xl font-bold text-white text-center mb-2">App Interface Preview</h3>
-                  <p className="text-gray-400 text-center">Scroll down to see the full app in action</p>
+                <div className="bg-slate-800 rounded-3xl p-8 h-96 flex flex-col items-center justify-center overflow-hidden">
+                  {/* App Interface Preview Image */}
+                  <img 
+                    src="/driver_map.png" 
+                    alt="App Interface Preview" 
+                    style={{
+                      width: '100%',
+                      height: '100%',
+                      objectFit: 'contain'
+                    }}
+                  />
                 </div>
               </div>
             </div>
