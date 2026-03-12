@@ -120,7 +120,7 @@ export default function Solution() {
             </li>
             <li className="flex items-center gap-3">
               <span className="text-lg">✓</span>
-              <span>Earn badges and rewards for participation</span>
+              <span>Earn badges and rewards for participation. Coming Soon</span>
             </li>
           </ul>
           <p className="opacity-90 text-center max-w-xl mx-auto" style={{ fontSize: '0.875rem', lineHeight: '1.6' }}>

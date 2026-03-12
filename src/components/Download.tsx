@@ -59,7 +59,7 @@ export default function Download() {
             </div>
           </div>
 
-          {/* FuelFinder */}
+          {/* Gas Finder */}
           <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl flex-1 max-w-sm hover:bg-white/20 transition-all duration-300" style={{ padding: '2rem' }}>
             <h3 className="font-bold" style={{ fontSize: '1.5rem', marginBottom: '0.75rem' }}>FuelFinder</h3>
             <p className="opacity-80" style={{ marginBottom: '1.5rem', lineHeight: '1.6', fontSize: '0.95rem' }}>Compare prices and find the cheapest fuel near you.</p>
@@ -105,14 +105,14 @@ export default function Download() {
           {!submitted ? (
             <form onSubmit={handleSubmit} className="flex" style={{ gap: '0.5rem' }}>
               <div className="flex-1 relative">
-                <FaEnvelope className="absolute left-4 top-4 text-gray-600" />
+                <FaEnvelope className="absolute left-4 top-4 text-white" />
                 <input
                   type="email"
                   placeholder="your@email.com"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   required
-                  className="w-full pl-12 pr-4 py-3 rounded-lg text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-400"
+                  className="w-full pl-12 pr-4 py-3 rounded-lg text-gray-900 placeholder-white focus:outline-none focus:ring-2 focus:ring-blue-400"
                 />
               </div>
               <button

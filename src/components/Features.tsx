@@ -22,7 +22,7 @@ export default function Features() {
     },
     {
       icon: FaTrophy,
-      title: 'Rewards Program',
+      title: 'Rewards Program - Coming soon',
       description: 'Earn badges and points for contributions. Unlock special perks and community status.'
     },
     {
@@ -116,7 +116,7 @@ export default function Features() {
               <h4 className="font-semibold" style={{ fontSize: '1.25rem', marginBottom: '1rem' }}>Traditional APIs</h4>
               <ul className="opacity-90" style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
                 <li>❌ 12 hrs to days delayed</li>
-                <li>❌ Not based on commodity futures</li>
+                <li>❌ Does not rely on commodity futures</li>
                 <li>❌ High cost</li>
                 <li>❌ Limited coverage</li>
               </ul>

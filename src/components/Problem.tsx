@@ -8,7 +8,7 @@ export default function Problem() {
     {
       icon: FaClock,
       title: 'Outdated Data',
-      description: 'API data is 12 hrs to multiple days old. Fuel prices change hourly.'
+      description: 'API data is 12 hrs to multiple days old. Fuel prices can change hourly.'
     },
     {
       icon: FaMoneyBill,
